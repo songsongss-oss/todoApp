@@ -1,0 +1,135 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff6f6;
+  min-height: 100vh;
+  font-family: "Stylish", sans-serif;
+}
+
+.header {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ff9494;
+  font-family: "Gaegu", sans-serif;
+  font-size: 3em;
+}
+.title {
+  color: black;
+  font-size: 3em;
+  font-family: "Gaegu", sans-serif;
+  text-align: center;
+}
+
+.header h1 {
+  color: black;
+  font-size: 2.5em;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 12px;
+  margin-right: 10px;
+  border: 3px dotted #ffb6b6;
+  border-radius: 15px;
+  width: 300px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff9494;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffb6b6;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff9494;
+  transform: scale(1.05);
+}
+
+.task-list {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 3px 10px rgba(255, 182, 182, 0.2);
+  border: 2px solid #ffe2e2;
+}
+
+.task-item:hover {
+  transform: translateX(5px);
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.todoboard {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(255, 182, 182, 0.3);
+}
+
+.todoboard h3 {
+  color: #ff9494;
+  margin-bottom: 20px;
+}
+
+.todoitem {
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #fff6f6;
+  border-radius: 15px;
+  border: 2px solid #ffe2e2;
+}
+
+.deletebtn {
+  background-color: #ff9494;
+}
+
+.deletebtn:hover {
+  background-color: #ff7676;
+}
+
+.editbtn {
+  background-color: #ffb6b6;
+}
+
+.editbtn:hover {
+  background-color: #ff9494;
+}
+
+.task-item {
+  padding: 10px;
+  margin: 5px 0;
+  background: white;
+  border: 1px solid #ddd;
+  cursor: grab;
+}
+
+.task-item:active {
+  cursor: grabbing;
+  opacity: 0.5;
+}
